@@ -32,3 +32,4 @@ In short, common words and senteces won't require any request.
 - dry-run: just check how many translations are missing. With community-based translations enabled, you could hope that there are no missing translations, and that would mean that you can translate the entire app for free.
 - Interrupt: The app should be able to save partial progresses if interrupted. Maybe in some other file, in order to avoid making changes to original file.
 - Check-for-interpolations: when exporting angular translations you may have some code, like interpolations or html. It's important that the output has the same number of interpolations as the input.
+- Funzionalità di merging tra due file .xlf: `translate-xlf merge locales/messages.xlf locales/messages.en.xlf`. Se una key (ID di una trans-unit) è già presente nel primo file saltala, altrimenti aggiungila.
