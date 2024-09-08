@@ -26,3 +26,8 @@ Otherwise, if the translation was not found, you will have to translate it with 
 In this way we'll be able to save money and share a large amuont of translations.
 
 In short, common words and senteces won't require any request.
+
+## Ideas / TODOs
+- Parallization may decrease wait time
+- dry-run: just check how many translations are missing. With community-based translations enabled, you could hope that there are no missing translations, and that would mean that you can translate the entire app for free.
+- Interrupt: The app should be able to save partial progresses if interrupted. Maybe in some other file, in order to avoid making changes to original file.
